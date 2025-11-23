@@ -1,48 +1,54 @@
-# 💰 CryptoBank - Banco de Criptomoedas em Python
+# 💰 CryptoBank - Cryptocurrency Bank in Python
 
-Bem-vindo ao **CryptoBank**, um projeto desenvolvido para aplicar conceitos de lógica de programação e programação em **Python**. O objetivo do projeto é simular um banco de criptomoedas simples, utilizando arquivos de texto (`.txt`) para armazenamento das informações, como usuários, saldos e transações.
-
----
-
-## 🎯 Objetivo do Projeto
-
-O projeto foi criado para **aprender lógica de programação** e **desenvolver habilidades em Python**, utilizando recursos básicos, como:
-
-- Manipulação de arquivos (`.txt`) para simular um banco de dados.
-- Estruturas de controle, funções e manipulação de strings.
-- Criação de um menu interativo para gerenciar contas e transações.
+Welcome to **CryptoBank**, a project developed to apply programming logic concepts in **Python**. The goal of the project is to simulate a simple cryptocurrency bank, using text files (`.txt`) to store information such as users, balances, and transactions.
 
 ---
 
-## 🛠️ Funcionalidades
+## 🎯 Project Goal
 
-O **CryptoBank** oferece as seguintes funcionalidades:
+The project was created to **learn programming logic** and **develop Python skills**, using basic resources such as:
+
+* File manipulation (`.txt`) to simulate a database.
+* Control structures, functions, and string manipulation.
+* Creation of an interactive menu to manage accounts and transactions.
+
+---
+
+## 🛠️ Features
+
+**CryptoBank** offers the following features:
 
 1. **Login**:
-   - Acesse a conta existente utilizando nome de usuário e senha.
 
-2. **Consulta de Saldo**:
-   - Exiba o saldo atual da conta.
+   * Access an existing account using username and password.
 
-3. **Depósito**:
-   - Adicione créditos à conta de forma segura.
+2. **Check Balance**:
 
-4. **Saque**:
-   - Realize retiradas de saldo (com validação para não exceder o saldo disponível).
+   * Display the current account balance.
 
-5. **Histórico de Transações**:
-   - Consulte o histórico de depósitos e saques, registrado em um arquivo `transacoes.txt`.
+3. **Deposit**:
 
-6. **Compra e Venda de Criptomoedas**:
-   - Faz a compra e a venda das criptomoedas.
+   * Add credits to the account securely.
+
+4. **Withdrawal**:
+
+   * Perform withdrawals (with validation to prevent overdraft).
+
+5. **Transaction History**:
+
+   * View deposit and withdrawal history, recorded in a `transacoes.txt` file.
+
+6. **Buy and Sell Cryptocurrencies**:
+
+   * Execute cryptocurrency purchases and sales.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-Este projeto foi desenvolvido exclusivamente em **Python** e utiliza:
+This project was developed entirely in **Python** and uses:
 
-- Manipulação de arquivos (`open`, `read`, `write`) para persistência de dados.
-- Funções para modularização do código.
-- Estruturas condicionais e loops para controle de fluxo.
-- Entrada e saída de dados com o terminal.
+* File handling (`open`, `read`, `write`) for data persistence.
+* Functions for code modularization.
+* Conditional structures and loops for flow control.
+* Input and output through the terminal.
